@@ -1,0 +1,81 @@
+:root {
+    --columbiablue: #C1D4D7;
+    --pinegreen: #12695F;
+    --darksalmon: #E29578;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+body {
+    background-color: var(--columbiablue);
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: var(--white);
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+main {
+    display: grid; 
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(1, 100px);
+    border: var(--black);
+}
+
+main .item {
+    aspect-ratio: 1 / 1;
+    border: var(--black);
+    justify-self: center;
+}
+
+main #item-1 {
+    background-color: blue;
+    grid-column: 1 / 4;
+    grid-row: 1 / 1;
+}
+
+main #item-2 {
+    background-color: pink;
+    grid-column: 2 / 4;
+    grid-row: 1 / 1;
+} 
+
+main #item-3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 1;
+} 
+
+main #item-4 {
+    grid-column: 4 / 4;
+    grid-row: 1 / 1;
+} 
+
+main .colour-cell {
+    border-radius: 50%;
+    background-color: var(--pinegreen);
+}
+
+main .colour-owner {
+    background-color: var(--darksalmon);
+}
+
+footer {
+    background-color: var(--white);
+    height: 50px;
+    margin-top: 20px;
+}
+
+/* a {
+}
+
+h1 {
+}
+
+h2 {
+} */
