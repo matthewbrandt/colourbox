@@ -6,6 +6,13 @@
     --black: #000000;
 }
 
+.deep-violet { background-color: #330066;}
+.turquoise-green { background-color: #00694C; }
+.deep-red { background-color: #714862; }
+
+.font-light { color: var(--white); }
+.font-dark { color: var(--black); }
+
 body {
     background-color: var(--columbiablue);
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
@@ -17,58 +24,61 @@ body {
 
 header {
     background-color: var(--white);
-    height: 50px;
-    margin-bottom: 20px;
+    min-height: 100px;
+    margin: 15px 55px 0 55px;
+}
+
+header h1, p {
+    padding-left: 15px;
 }
 
 main {
-    display: grid; 
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(1, 100px);
-    border: var(--black);
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(10, 150px);
+    grid-template-rows: repeat(8, 150px);
+    justify-content: center;
+    margin: 0 55px 0;
+    padding: 15px 55px 15px;
 }
 
 main .item {
     aspect-ratio: 1 / 1;
-    border: var(--black);
-    justify-self: center;
 }
-
-main #item-1 {
-    background-color: blue;
-    grid-column: 1 / 4;
-    grid-row: 1 / 1;
-}
-
-main #item-2 {
-    background-color: pink;
-    grid-column: 2 / 4;
-    grid-row: 1 / 1;
-} 
-
-main #item-3 {
-    grid-column: 3 / 4;
-    grid-row: 1 / 1;
-} 
-
-main #item-4 {
-    grid-column: 4 / 4;
-    grid-row: 1 / 1;
-} 
 
 main .colour-cell {
-    border-radius: 50%;
-    background-color: var(--pinegreen);
+    border-radius: 100%;
+    height: 75px;
+    padding: 0 37.5px 0;
+    background-clip: content-box;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main .colour-owner {
-    background-color: var(--darksalmon);
+    height: 75px;
+    font-size: 1.2rem;
+    text-align: center;
+    align-items: center;
+    word-wrap: normal;
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
     background-color: var(--white);
-    height: 50px;
-    margin-top: 20px;
+    min-height: 100px;
+    margin: 0 55px 15px 55px;
+}
+
+footer p {
+    padding-left: 15px;
+    margin: 0;
 }
 
 /* a {
