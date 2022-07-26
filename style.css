@@ -6,13 +6,6 @@
     --black: #000000;
 }
 
-.deep-violet { background-color: #330066;}
-.turquoise-green { background-color: #00694C; }
-.deep-red { background-color: #714862; }
-
-.font-light { color: var(--white); }
-.font-dark { color: var(--black); }
-
 body {
     background-color: var(--columbiablue);
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
@@ -35,8 +28,8 @@ header h1, p {
 main {
     background-color: var(--white);
     display: grid;
-    grid-template-columns: repeat(10, 150px);
-    grid-template-rows: repeat(8, 150px);
+    grid-template-columns: repeat(8, 150px);
+    grid-template-rows: repeat(2, 150px);
     justify-content: center;
     margin: 0 55px 0;
     padding: 15px 55px 15px;
@@ -68,6 +61,10 @@ main .colour-owner {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+main .colour-unclaimed {
+    color: grey;
 }
 
 footer {
