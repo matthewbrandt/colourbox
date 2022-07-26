@@ -1,0 +1,88 @@
+:root {
+    --columbiablue: #C1D4D7;
+    --pinegreen: #12695F;
+    --darksalmon: #E29578;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+body {
+    background-color: var(--columbiablue);
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: var(--white);
+    min-height: 100px;
+    margin: 15px 55px 0 55px;
+}
+
+header h1, p {
+    padding-left: 15px;
+}
+
+main {
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(8, 150px);
+    grid-template-rows: repeat(2, 150px);
+    justify-content: center;
+    margin: 0 55px 0;
+    padding: 15px 55px 15px;
+}
+
+main .item {
+    aspect-ratio: 1 / 1;
+}
+
+main .colour-cell {
+    border-radius: 100%;
+    height: 75px;
+    padding: 0 37.5px 0;
+    background-clip: content-box;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .colour-owner {
+    height: 75px;
+    font-size: 1.2rem;
+    text-align: center;
+    align-items: center;
+    word-wrap: normal;
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .colour-unclaimed {
+    color: grey;
+}
+
+footer {
+    background-color: var(--white);
+    min-height: 100px;
+    margin: 0 55px 15px 55px;
+}
+
+footer p {
+    padding-left: 15px;
+    margin: 0;
+}
+
+/* a {
+}
+
+h1 {
+}
+
+h2 {
+} */
