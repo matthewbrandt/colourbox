@@ -2,6 +2,7 @@
     --columbiablue: #C1D4D7;
     --pinegreen: #12695F;
     --darksalmon: #E29578;
+    --stormdust: #626262;
     --white: #FFFFFF;
     --black: #000000;
 }
@@ -25,11 +26,22 @@ header h1, p {
     padding-left: 15px;
 }
 
+.header-column {
+    float: left;
+    width: 85%;
+}
+
+.header-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 main {
     background-color: var(--white);
     display: grid;
-    grid-template-columns: repeat(8, 150px);
-    grid-template-rows: repeat(2, 150px);
+    grid-template-columns: 150px repeat(auto-fill, 150px);
+    grid-template-rows: 150px repeat(auto-fill, 150px);
     justify-content: center;
     margin: 0 55px 0;
     padding: 15px 55px 15px;
@@ -78,11 +90,52 @@ footer p {
     margin: 0;
 }
 
-/* a {
-}
 
-h1 {
-}
-
-h2 {
-} */
+/* slide toggle */
+.toggle {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 112px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: var(--stormdust);
+    transition: background-color ease 0.2s;
+  }
+  
+  .toggle:before {
+    content: "claimed unclaimed";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 28px;
+    height: 28px;
+    background: #fff;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    font: 10px/28px Helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-indent: -52px;
+    word-spacing: 42px;
+    color: var(--white);
+    text-shadow: -1px -1px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    transition: all cubic-bezier(0.3, 1.5, 0.7, 1) 0.3s;
+  }
+  
+  .toggle:checked {
+    background-color: var(--darksalmon);
+  }
+  
+  .toggle:checked:before {
+    left: 82px;
+  }
