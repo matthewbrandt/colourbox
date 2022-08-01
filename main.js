@@ -1,12 +1,44 @@
-/*
-- claim state
-- colour class / hex
-- colour name
-- colour claimed name
-- colour claimee name
-*/
-
 import { colourData } from './colour_data.js';
+
+function opacityToggle() {
+  const claimed = document.querySelectorAll('[data-claimed]');
+    claimed.forEach((item) => {
+      item.classList.add("opacity");
+    })
+}
+
+window.addEventListener("load", opacityToggle);
+
+function foo() {
+  const claimed = document.querySelectorAll('[data-claimed]');
+  const unclaimed = document.querySelectorAll('.item:not([data-claimed])');
+
+  if (this.checked == true) {
+    claimed.forEach((item) => {
+      item.classList.remove("opacity");
+      item.classList.add("animate__flipInY");
+    })
+    unclaimed.forEach((item) => {
+      item.classList.add("opacity");
+      item.classList.remove("animate__flipInY");
+    })
+    
+  }
+  else {
+      const claimed = document.querySelectorAll('[data-claimed]');
+      claimed.forEach((item) => {
+        item.classList.add("opacity");
+        item.classList.remove("animate__flipInY");
+      })
+      unclaimed.forEach((item) => {
+        item.classList.remove("opacity");
+        item.classList.add("animate__flipInY");
+      })
+    }
+}
+
+document.querySelector(".toggle").addEventListener("click", foo);
+
 
 function makeDivs() {
     const mainGrid = document.getElementById('main_grid');
@@ -25,7 +57,7 @@ function makeDivs() {
       const insideBottomDiv = document.createElement("div");
     
       /* add styles to the main div container */
-      newDiv.classList.add("item");
+      newDiv.classList.add("item","animate__animated");
       if (expiredState) { 
         newDiv.dataset.claimed = true;
       };
@@ -58,5 +90,4 @@ function makeDivs() {
   }
 
 makeDivs();
-
 
