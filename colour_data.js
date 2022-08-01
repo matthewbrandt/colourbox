@@ -532,9 +532,9 @@ export const colourData = [
     "colour_name": "Sky Blue",
     "colour_bg": "#8BABD8",
     "font_style": "dark",
-    "claimed_at": "",
-    "colour_claimed_name": "",
-    "colour_claimee_name": "",
+    "claimed_at": "2022-08-01",
+    "colour_claimed_name": "Rich Blue",
+    "colour_claimee_name": "RicSti",
     "in_box": true,
     "sort_order": 49
   },
