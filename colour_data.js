@@ -587,9 +587,9 @@ export const colourData = [
     "colour_name": "Pale Purple",
     "colour_bg": "#EE7DA7",
     "font_style": "dark",
-    "claimed_at": "",
-    "colour_claimed_name": "",
-    "colour_claimee_name": "",
+    "claimed_at": "2022-08-01",
+    "colour_claimed_name": "Eco Green",
+    "colour_claimee_name": "tdrayson",
     "in_box": true,
     "sort_order": 54
   },
