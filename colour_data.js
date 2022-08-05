@@ -169,9 +169,9 @@ export const colourData = [
     "colour_name": "Marigold",
     "colour_bg": "#E99D3F",
     "font_style": "dark",
-    "claimed_at": "",
-    "colour_claimed_name": "",
-    "colour_claimee_name": "",
+    "claimed_at": "2022-08-05",
+    "colour_claimed_name": "Not Finite's Orange",
+    "colour_claimee_name": "joostschuur",
     "in_box": true,
     "sort_order": 16
   },
