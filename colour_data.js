@@ -499,9 +499,9 @@ export const colourData = [
     "colour_name": "Royal Blue",
     "colour_bg": "#2761AA",
     "font_style": "light",
-    "claimed_at": "",
-    "colour_claimed_name": "",
-    "colour_claimee_name": "",
+    "claimed_at": "2022-08-08",
+    "colour_claimed_name": "Rascal_Blue",
+    "colour_claimee_name": "JBardy",
     "in_box": true,
     "sort_order": 46
   },
