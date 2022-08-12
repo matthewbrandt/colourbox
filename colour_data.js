@@ -477,9 +477,9 @@ export const colourData = [
     "colour_name": "Turquoise Blue",
     "colour_bg": "#8ECABF",
     "font_style": "dark",
-    "claimed_at": "",
-    "colour_claimed_name": "",
-    "colour_claimee_name": "",
+    "claimed_at": "2022-08-12",
+    "colour_claimed_name": "Crocodile Tears",
+    "colour_claimee_name": "Tactix47",
     "in_box": true,
     "sort_order": 44
   },
