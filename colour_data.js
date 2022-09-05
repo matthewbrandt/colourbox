@@ -158,9 +158,9 @@ export const colourData = [
     "colour_name": "Orange",
     "colour_bg": "#E7873B",
     "font_style": "dark",
-    "claimed_at": "2022-08-01",
-    "colour_claimed_name": "Black Hole Orange",
-    "colour_claimee_name": "FiniteSingularity",
+    "claimed_at": "2022-09-05",
+    "colour_claimed_name": "Orange You Glad",
+    "colour_claimee_name": "joostschuur",
     "in_box": true,
     "sort_order": 15
   },
