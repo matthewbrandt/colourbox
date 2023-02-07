@@ -554,9 +554,9 @@ export const colourData = [
     "colour_name": "Deep Violet",
     "colour_bg": "#63338A",
     "font_style": "light",
-    "claimed_at": "",
-    "colour_claimed_name": "",
-    "colour_claimee_name": "",
+    "claimed_at": "2023-02-06",
+    "colour_claimed_name": "purplishious",
+    "colour_claimee_name": "Stoney_Eagle",
     "in_box": true,
     "sort_order": 51
   },
