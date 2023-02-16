@@ -676,8 +676,8 @@ export const colourData = [
     "colour_bg": "#0A1822",
     "font_style": "light",
     "claimed_at": "2022-08-03",
-    "colour_claimed_name": "P4nth3r Black",
-    "colour_claimee_name": "whitep4nth3r",
+    "colour_claimed_name": "pretty",
+    "colour_claimee_name": "ruggmatt",
     "in_box": true,
     "sort_order": 62
   },
