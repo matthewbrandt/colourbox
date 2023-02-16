@@ -675,7 +675,7 @@ export const colourData = [
     "colour_name": "Black",
     "colour_bg": "#0A1822",
     "font_style": "light",
-    "claimed_at": "2022-08-03",
+    "claimed_at": "2023-02-16",
     "colour_claimed_name": "pretty",
     "colour_claimee_name": "ruggmatt",
     "in_box": true,
