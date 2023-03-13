@@ -147,9 +147,9 @@ export const colourData = [
     "colour_name": "French Vermilion",
     "colour_bg": "#E06136",
     "font_style": "light",
-    "claimed_at": "",
-    "colour_claimed_name": "",
-    "colour_claimee_name": "",
+    "claimed_at": "2023-03-13",
+    "colour_claimed_name": "DruidOrange",
+    "colour_claimee_name": "TheRealDjinni",
     "in_box": true,
     "sort_order": 14
   },
