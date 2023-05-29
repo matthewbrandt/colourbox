@@ -92,9 +92,9 @@ export const colourData = [
     "colour_name": "Vermilion",
     "colour_bg": "#DD5039",
     "font_style": "light",
-    "claimed_at": "",
-    "colour_claimed_name": "",
-    "colour_claimee_name": "",
+    "claimed_at": "2023-05-29",
+    "colour_claimed_name": "Right Join Red",
+    "colour_claimee_name": "rightjoinisthebestjoin",
     "in_box": true,
     "sort_order": 9
   },
