@@ -686,9 +686,9 @@ export const colourData = [
     "colour_name": "Skin White",
     "colour_bg": "#FAE5DA",
     "font_style": "dark",
-    "claimed_at": "",
-    "colour_claimed_name": "",
-    "colour_claimee_name": "",
+    "claimed_at": "2023-06-19",
+    "colour_claimed_name": "Skinverse Black",
+    "colour_claimee_name": "BaffledAlways",
     "in_box": true,
     "sort_order": 63
   },
