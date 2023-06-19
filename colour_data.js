@@ -70,9 +70,9 @@ export const colourData = [
     "colour_name": "Deep Red",
     "colour_bg": "#D9355C",
     "font_style": "light",
-    "claimed_at": "2022-09-09",
-    "colour_claimed_name": "Stolen Red",
-    "colour_claimee_name": "RuggMatt",
+    "claimed_at": "2023-06-19",
+    "colour_claimed_name": "Inverse Green",
+    "colour_claimee_name": "Fourecks",
     "in_box": true,
     "sort_order": 7
   },
