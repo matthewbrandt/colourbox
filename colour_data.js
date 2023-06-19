@@ -158,9 +158,9 @@ export const colourData = [
     "colour_name": "Orange",
     "colour_bg": "#E7873B",
     "font_style": "dark",
-    "claimed_at": "2023-02-16",
-    "colour_claimed_name": "YesIWasGlad",
-    "colour_claimee_name": "joostschuur",
+    "claimed_at": "2023-06-19",
+    "colour_claimed_name": "Right Join Orange",
+    "colour_claimee_name": "RightJoinIsTheBestJoin",
     "in_box": true,
     "sort_order": 15
   },
