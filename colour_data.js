@@ -37,7 +37,7 @@ export const colourData = [
     "colour_name": "Vivid Pink",
     "colour_bg": "#EC62A9",
     "font_style": "light",
-    "claimed_at": "2022-08-21",
+    "claimed_at": "2023-08-21",
     "colour_claimed_name": "Pepto Bismol Pink",
     "colour_claimee_name": "RuggMatt",
     "in_box": true,
